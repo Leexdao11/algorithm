@@ -99,6 +99,10 @@ public class LinkListUtil {
        public Node getLast() {
            return last;
        }
+
+       public void setHead(Node head) {
+           this.head = head;
+       }
    }
 
 }
